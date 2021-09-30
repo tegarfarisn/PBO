@@ -1,0 +1,15 @@
+package input_output;
+import java.util.Scanner;
+import java.lang.String;
+public class input_output {
+	public static void main(String[] args) {
+		String[] S;
+		int n;
+		Scanner Scan = new Scanner(System.in);
+		
+		System.out.println("Input Kalimat: ");
+		S = Scan.nextLine();
+		
+		System.out.println(S[0]);
+	}
+}

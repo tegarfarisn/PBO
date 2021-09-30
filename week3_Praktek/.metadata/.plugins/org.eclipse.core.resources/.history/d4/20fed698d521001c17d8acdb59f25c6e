@@ -1,0 +1,40 @@
+
+public class kampusPITB {
+	private String direktur;
+	private String dosen;
+	private String mahasiswa;
+	private String staff;
+	private String security;
+	
+	//method getter and setter
+	public void setDirektur(String direktur) {
+		this.direktur = direktur;
+	}
+	public void getDirektur() {
+		return this.direktur;
+	}
+	public void setDosen(String dosen) {
+		this.dosen = dosen;
+	}
+	public void getDosen() {
+		return this.dosen;
+	}
+	public void setMahasiswa(String Mahasiswa) {
+		this.mahasiswa = mahasiswa;
+	}
+	public void getMahasiswa() {
+		return this.mahasiswa;
+	}
+	public void setStaff(String staff) {
+		this.staff = staff;
+	}
+	public void getStaff() {
+		return this.staff;
+	}
+	public void setSecurity(String security {
+		this.security = security;
+	}
+	public void getSecurity() {
+		return this.security;
+	}
+}

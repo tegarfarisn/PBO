@@ -1,0 +1,23 @@
+
+
+public class mainClass {
+	public static void main(String[] args) {
+		kampusPITB dir1 = new kampusPITB();
+		kampusPITB dos1 = new kampusPITB();
+		kampusPITB mhs1 = new kampusPITB();
+		kampusPITB staf1 = new kampusPITB();
+		kampusPITB sec1 = new kampusPITB();
+		
+		dir1.setDirektur("Rachmad");
+		dos1.setDosen("Yadhi");
+		mhs1.setMahasiswa("Tegar faris");
+		staf1.setStaff("budi");
+		sec1.setSecurity("aceng");
+		
+		System.out.println("Direktur 1  : "+ dir1.getDirektur());
+		System.out.println("Dosen 1     : "+ dos1.getDosen());
+		System.out.println("Mahasiswa 1 : "+ mhs1.getMahasiswa());
+		System.out.println("Staff 1     : "+ staf1.getStaff());
+		System.out.println("Security 1  : "+ sec1.getSecurity());
+	}
+}

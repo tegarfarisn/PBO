@@ -1,0 +1,11 @@
+
+public class kampusPITBData {
+	public String direktur;
+	public String dosen;
+	public String mahasiswa;
+	public String staff;
+	public String security;
+
+	public kampusPITBData() {
+	}
+}

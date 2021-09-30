@@ -1,0 +1,18 @@
+package input_output;
+import java.util.Scanner;
+//import java.lang.String;
+public class input_output {
+	public static void main(String[] args) {
+		String s;
+		int n = 0;
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("input kalimat: ");
+		s = scan.nextLine();
+		
+		for(String jumlah: s) {
+			n++;
+			System.out.println("jumlah kata adalah " + n);
+		}
+	}
+}

@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+D:\PBO\week3\week3_Praktek\.metadata\.plugins\org.eclipse.jdt.core
+2684172797.index
+1065451494.index
+2400612896.index
+2474431912.index
+3414762095.index
+594808838.index
+2912972933.index
